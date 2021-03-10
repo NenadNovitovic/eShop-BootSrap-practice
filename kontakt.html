@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> eProdavnica </title>
+	<meta charset="UTF-8" name="viewport" contet="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <style>
+
+    footer {
+		height: 50px;
+		
+    }
+
+  </style>
+</head>
+<body style="background-color:#cee8ff;">
+<nav class="navbar  navbar-expand-md  navbar-dark"style="background-color:#005282;">
+	<div class="container">
+		<a class="navbar-brand" href="index.html"> eProdavnica </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sazimajuciKontejner">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse justify-content-end " id="sazimajuciKontejner">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html"> Pocetna </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="muskarci.html"> Muška odeća </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="zene.html"> Ženska odeća </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="deca.html"> Odeća za decu </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="galerija.html"> Outlet </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="kontakt.html"> Kontakt </a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container my-3">
+	<div class="row">
+		<div  class="col-md-6 p-3">
+			<h1> Drago nam je da vas zanima naš rad! </h1> <br> <hr> <br>
+			<p style="font-size:20px;"> Trudimo se da imamo najbolju robu za vas, po najboljim cenama. Svakodnevni rad, po 8 sati dnevno, sigurno nešto dobro radimo. Uvozimo dobar deo naše robe, ali takođe i dosta stvari nabavljamo od domaćih proizvođača. Sve ručno pravljeno. </p>
+			
+			<p style="font-size:20px;">
+				<h4>Pratite nas na:</h4> <br>
+				<a href="#">Facebook-u <br> <i class="fa fa-facebook-square" style="font-size:42px; "></i></a> <br>
+				<a href="#">Instagram-u <br> <i class="fa fa-instagram" style="font-size:42px"></i></a> <br>
+				<a href="#">Twitter-u <br> <i class="fa fa-twitter-square" style="font-size:42px; "></i></a> <br>
+				<a href="#">Google+ u <br> <i class="fa fa-google-plus" style="font-size:42px"></i></a><br>
+			</p>
+			<div class="text-center">
+      <button class="btn btn-primary mb-5" data-toggle="collapse" data-target="#komentar-forma">
+        Ostavi komentar
+      </button>
+    </div>
+    <div class="form-group collapse" id="komentar-forma">
+      <form>
+
+        <label for="ime">Ime i prezime:</label>
+        <input type="text" id="ime" class="form-control" placeholder="Unesite vase ime i prezime" required />
+        <label for="komentar">Vas komentar:</label>
+        <textarea type="text" id="komentar" class="form-control" placeholder="Unesite vas komentar" required></textarea>
+        <input type="submit" class="btn btn-primary mt-1 "  value="Komentariši!" />
+
+      </form>
+	  
+    </div>
+
+		</div>
+		<div  class="col-md-6  ">
+		
+				<div class="card text-center my-4">
+					<img class="card-img-top" src="slike/card.png">
+					<div class="card-body">
+						<h5 class="card-title">Glavna lokacija</h5>
+						<p class="card-text">Ulica: Vojvode Stepe 283<br>Telefon: 011/123-4567</p>
+					</div>
+			</div>
+			<h3>Ostale lokacije</h3>
+			<div class="table-responsive">
+			<table class="table table-striped">
+				<tr>
+					<th> Lokacija </th>
+					<th> Adresa </th>
+					<th> Telefon</th>
+				</tr>
+				<tr>
+					<th> Nesto </th>
+					<th> NekaUlica 33 </th>
+					<th> +381 332322 </th>
+				</tr>
+								<tr>
+					<th> Nesto </th>
+					<th> NekaUlica 33 </th>
+					<th> +381 332322 </th>
+				</tr>
+								<tr>
+					<th> Nesto </th>
+					<th> NekaUlica 33 </th>
+					<th> +381 332322 </th>
+				</tr>
+			</table>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<br><br><br>
+  <footer class="footer  "style="background-color:#005282;">
+    <div class="container text-center pt-2 pr-1 text-light">
+      eProdavnica
+      <span class="d-none d-md-inline"> projekat iz IČR </span>&copy;
+    </div>
+
+  </footer>
+	
+	
+<script src="https://code.jquery.com/jquery.js">
+</script>
+<script src="js/bootstrap.min.js">
+</script>
+</body>
+</html>
